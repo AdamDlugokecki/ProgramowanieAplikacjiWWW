@@ -1,0 +1,65 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="pl" />
+<meta name="Author" content="Adam Długokęcki" />
+<title>Najwieksze budynki swiata</title>
+<link rel="stylesheet" href="style.css">
+    <script src="kolorujtlo.js" type="text/javascript"></script>
+    <script src="timedate.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="startclock()">
+<table>
+<tr>
+ <td class="menu">
+  <div class="zegar">
+      <div id="zegarek"></div>
+     <div id="data"></div>
+  </div>
+   
+    <a href="index.html">
+			<div class="pole animacjaTestowa">
+				STRONA GLOWNA
+			</div>
+	</a>
+	<a href="kontakt.html">
+			<div class="pole animacjaTestowa">
+				KONTAKT
+			</div>
+	</a>
+     <img src="moon.png" class="moon" onclick="changeBackground('#FFFFFF','#000000')">
+ </td>
+ </tr>
+ <tr>
+ <td>
+     <h1 style="text-align:center">Największe budynki świata</h1>
+     <p class="wiez"><a href="BurdzChalifa.html">1. Burdż Chalifa</a></p>
+     <p class="wiez"><a href="Merdeka118.html">2. Merdeka 118</a></p>
+     <p class="wiez"><a href="ShanghaiTower.html">3. Shanghai Tower</a></p>
+     <p class="wiez"><a href="Abradzal-Bajt.html">4. Abradż al-Bajt</a></p>
+     <p class="wiez"><a href="PingAnFinanceCenter.html">5. Ping An Finance Center</a></p>
+     <img class="budynki" src="budynki.png">
+     <form method="post" name="backgroud">
+     
+     
+     </form>
+     <script>
+     $(".animacjaTestowa").on({
+    "mouseenter": function() {
+        $(this).animate({
+            height: 30
+        }, 800);
+    },
+    "mouseleave": function() {
+        $(this).animate({
+            height: 20
+        }, 800);
+    }
+});
+     </script>
+ </td>
+</tr>
+</table>
+</body>
+<html>

@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="pl" />
+<meta name="Author" content="Adam Długokęcki" />
+<title>Abradż al-Bajt</title>
+<link rel="stylesheet" href="style.css">
+    <script src="kolorujtlo.js" type="text/javascript"></script>
+    <script src="timedate.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="startclock()">
+<table>
+<tr>
+ <td class="menu">
+  <div class="zegar">
+      <div id="zegarek"></div>
+     <div id="data"></div>
+  </div>
+   
+    <a href="index.html">
+			<div class="pole animacjaTestowa">
+				STRONA GLOWNA
+			</div>
+	</a>
+	<a href="kontakt.html">
+			<div class="pole animacjaTestowa">
+				KONTAKT
+			</div>
+	</a>
+     <img src="moon.png" class="moon" onclick="changeBackground('#FFFFFF','#000000')">
+ </td>
+ </tr>
+ <tr>
+ <td>
+    <h2>Abradż al-Bajt</h2>
+    <p><b>Miasto:</b> Mekka</p>
+     <p><b>Państwo:</b> Arabia Saudyjska</p>
+     <p><b>Wysokość (w metrach):</b> 601</p>
+     <p><b>Liczba kondygnacji:</b> 120</p>
+     <p><b>Rok budowy:</b> 2012</p>
+     <p><b>Powierzchnia (w tys. m²):</b> 1500</p>
+     <img src="Abraj-al-Bait-Towers_1.jpg">
+     <p>Abradż al-Bajt – kompleks hotelowy w Mekce, w Arabii Saudyjskiej, postmodernistyczny, wzniesiony w latach 2004–2011 według projektu zespołu architektów biura architektonicznego SL Rasch; znajduje się w bezpośrednim sąsiedztwie Świętego Meczetu.
+
+     Abradż al-Bajt znajduje się w pobliżu największego na świecie meczetu i najświętszego miejsca islamu, Al-Masdżid al-Haram.
+
+     Kompleks posiada kilka światowych rekordów, w tym najwyższy hotel na świecie, najwyższy zegar wieżowy na świecie, największa na świecie tarcza zegara, i największy na świecie budynek pod względem powierzchni.
+
+     Kompleks stał się drugim pod względem wysokości budynkiem na świecie w 2011 roku, ustępował tylko Burdż Chalifa w Dubaju. Od 2015 roku zajmuje 3. miejsce. Projektantem i wykonawcą obiektu jest Saudi Binladin Group, największa firma budowlana królestwa.</p>
+     <img src="Abraj-al-Bait-Towers_2.jpg">
+     <img src="Abraj-al-Bait-Towers_3.jpg">
+ </td>
+</tr>
+</table>
+<script>
+     $(".animacjaTestowa").on({
+    "mouseenter": function() {
+        $(this).animate({
+            height: 30
+        }, 800);
+    },
+    "mouseleave": function() {
+        $(this).animate({
+            height: 20
+        }, 800);
+    }
+});
+     </script>
+</body>
+<html>

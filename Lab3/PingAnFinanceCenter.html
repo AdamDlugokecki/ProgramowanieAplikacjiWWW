@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="pl" />
+<meta name="Author" content="Adam Długokęcki" />
+<title>Ping An Finance Center</title>
+<link rel="stylesheet" href="style.css">
+    <script src="kolorujtlo.js" type="text/javascript"></script>
+    <script src="timedate.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body onload="startclock()">
+<table>
+<tr>
+<td class="menu">
+  <div class="zegar">
+      <div id="zegarek"></div>
+     <div id="data"></div>
+  </div>
+   
+    <a href="index.html">
+			<div class="pole animacjaTestowa">
+				STRONA GLOWNA
+			</div>
+	</a>
+	<a href="kontakt.html">
+			<div class="pole animacjaTestowa">
+				KONTAKT
+			</div>
+	</a>
+     <img src="moon.png" class="moon" onclick="changeBackground('#FFFFFF','#000000')">
+ </td>
+ </tr>
+ <tr>
+ <td>
+    <h2>Ping An Finance Center</h2>
+    <p><b>Miasto:</b> Shenzhen</p>
+     <p><b>Państwo:</b> Chiny</p>
+     <p><b>Wysokość (w metrach):</b> 599</p>
+     <p><b>Liczba kondygnacji:</b> 115</p>
+     <p><b>Rok budowy:</b> 2017</p>
+     <p><b>Powierzchnia (w tys. m²):</b> 386</p>
+     <img src="PingA%20FinanceCentre_1.jpg">
+     <p>Ping An Finance Center – wieżowiec w Shenzhen, w prowincji Guangdong, w Chińskiej Republice Ludowej. Wysokość całkowita budynku wynosi 599 m co czyni go najwyższym wieżowcem w Shenzhen i drugim co do wielkości w Chinach, został otwarty w 2017 roku. Stał się najwyższym wieżowcem biurowym na świecie.
+
+     Koszt budynku to ok. 5,49 miliarda złotych ($ 1,5 miliarda) co przy 385 918 metrach kwadratowych powierzchni użytkowej daje ok. 14225,81 złotych za metr kwadratowy.</p>
+     <img src="PingA%20FinanceCentre_2.jpg">
+     <img src="PingA%20FinanceCentre_3.jpg">
+ </td>
+</tr>
+</table>
+<script>
+     $(".animacjaTestowa").on({
+    "mouseenter": function() {
+        $(this).animate({
+            height: 30
+        }, 800);
+    },
+    "mouseleave": function() {
+        $(this).animate({
+            height: 20
+        }, 800);
+    }
+});
+     </script>
+</body>
+<html>
